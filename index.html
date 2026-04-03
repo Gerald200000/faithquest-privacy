@@ -5,48 +5,421 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Privacy Policy – Faith Quest</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
-    h1 { color: #1a237e; }
-    h2 { color: #283593; margin-top: 32px; }
-    p  { margin: 10px 0; }
-    a  { color: #1a237e; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f6fb;
+      color: #222;
+      line-height: 1.8;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 28px 80px;
+    }
+    .header {
+      background: linear-gradient(135deg, #0D1B4B, #1a3a8f);
+      color: white;
+      padding: 48px 28px 36px;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+    .header p {
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      padding: 4px 16px;
+      font-size: 0.82rem;
+      margin-top: 12px;
+      letter-spacing: 0.5px;
+    }
+    .toc {
+      background: #fff;
+      border: 1px solid #dde3f0;
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin: 36px 0 32px;
+    }
+    .toc h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #0D1B4B;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .toc ol {
+      padding-left: 20px;
+    }
+    .toc li {
+      margin: 6px 0;
+    }
+    .toc a {
+      color: #1a3a8f;
+      text-decoration: none;
+      font-size: 0.93rem;
+    }
+    .toc a:hover { text-decoration: underline; }
+    .section {
+      background: #fff;
+      border: 1px solid #dde3f0;
+      border-radius: 12px;
+      padding: 32px 36px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 1.18rem;
+      font-weight: 800;
+      color: #0D1B4B;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e8ecf8;
+    }
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1a3a8f;
+      margin: 20px 0 8px;
+    }
+    p { margin-bottom: 12px; font-size: 0.95rem; }
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 12px;
+    }
+    li { margin: 6px 0; font-size: 0.95rem; }
+    a { color: #1a3a8f; }
+    .highlight {
+      background: #eef2ff;
+      border-left: 4px solid #1a3a8f;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 0.93rem;
+    }
+    .warning {
+      background: #fff8e1;
+      border-left: 4px solid #f59e0b;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 0.93rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 0.9rem;
+    }
+    th {
+      background: #0D1B4B;
+      color: white;
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 600;
+    }
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e8ecf8;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: #f8f9fe; }
+    .footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      .section { padding: 22px 18px; }
+      .header h1 { font-size: 1.5rem; }
+    }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy – Faith Quest</h1>
-  <p><strong>Last updated: April 2, 2026</strong></p>
 
-  <p>Faith Quest ("we", "our", or "us") is a free mobile game available on Android. This Privacy Policy explains how information is collected and used when you play Faith Quest.</p>
+<div class="header">
+  <h1>Privacy Policy</h1>
+  <p>Faith Quest — 4 Pics 1 Bible Word</p>
+  <div class="badge">Last Updated: April 3, 2026</div>
+</div>
 
-  <h2>Information We Collect</h2>
-  <p>We do <strong>not</strong> collect any personally identifiable information such as your name, email address, or location.</p>
-  <p>Faith Quest uses <strong>Google AdMob</strong> to display banner and rewarded advertisements. AdMob may collect certain device information automatically, including:</p>
-  <ul>
-    <li>Advertising ID (used to serve relevant ads)</li>
-    <li>Device type and operating system version</li>
-    <li>IP address (used to determine approximate location for ad targeting)</li>
-    <li>Ad interaction data (e.g. whether an ad was viewed or clicked)</li>
-  </ul>
-  <p>This data is collected and processed by Google LLC. We do not have direct access to this information.</p>
+<div class="container">
 
-  <h2>How We Use Information</h2>
-  <p>Game progress (completed levels, coins, settings) is stored <strong>locally on your device only</strong> using Android's SharedPreferences. This data never leaves your device and is not transmitted to us or any third party.</p>
-  <p>Advertising data collected by AdMob is used solely to display advertisements within the app.</p>
+  <div class="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#age">Age Requirements</a></li>
+      <li><a href="#data-collected">Information We Collect</a></li>
+      <li><a href="#third-party">Third-Party Services</a></li>
+      <li><a href="#how-we-use">How We Use Information</a></li>
+      <li><a href="#data-sharing">Data Sharing</a></li>
+      <li><a href="#data-retention">Data Retention &amp; Storage</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#gdpr">Your Rights – GDPR (EU/EEA Users)</a></li>
+      <li><a href="#ccpa">Your Rights – CCPA (California Users)</a></li>
+      <li><a href="#international">International Data Transfers</a></li>
+      <li><a href="#children">Children's Privacy</a></li>
+      <li><a href="#changes">Changes to This Policy</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ol>
+  </div>
 
-  <h2>Third-Party Services</h2>
-  <p>Faith Quest uses Google AdMob for advertising. Google's use of advertising data is governed by the <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.</p>
-  <p>You can opt out of personalised advertising by adjusting your device settings under <em>Settings → Google → Ads → Opt out of Ads Personalisation</em>.</p>
+  <!-- 1. Overview -->
+  <div class="section" id="overview">
+    <h2>1. Overview</h2>
+    <p>Faith Quest ("we", "our", "us") is a free mobile game developed for Android devices and distributed through the Google Play Store. This Privacy Policy explains what information is collected when you use Faith Quest, how that information is used, and what rights you have regarding your data.</p>
+    <p>By downloading and using Faith Quest, you agree to the practices described in this Privacy Policy. If you do not agree with this policy, please do not use the app.</p>
+    <p>Faith Quest is available in all countries where the Google Play Store operates. This policy is designed to comply with applicable data protection laws globally, including the <strong>General Data Protection Regulation (GDPR)</strong> for users in the European Union and European Economic Area, and the <strong>California Consumer Privacy Act (CCPA)</strong> for users in California, USA.</p>
+  </div>
 
-  <h2>Children's Privacy</h2>
-  <p>Faith Quest is intended for general audiences. We do not knowingly collect personal information from children under 13. The app displays ads through AdMob configured for a general audience.</p>
+  <!-- 2. Age Requirements -->
+  <div class="section" id="age">
+    <h2>2. Age Requirements</h2>
+    <div class="warning">
+      <strong>Faith Quest is intended for users aged 13 and older.</strong> If you are under 13 years of age, you are not permitted to use this app.
+    </div>
+    <p>We do not knowingly collect personal information from anyone under the age of 13. If you are a parent or guardian and believe your child under 13 has used this app or provided personal information, please contact us immediately at <a href="mailto:gerald30.munyoro@gmail.com">gerald30.munyoro@gmail.com</a> and we will take steps to remove any such information.</p>
+    <p>Users between the ages of 13 and 17 should review this policy with a parent or guardian before using the app.</p>
+  </div>
 
-  <h2>Data Retention</h2>
-  <p>All game data is stored locally on your device. Uninstalling the app will permanently delete all locally stored game data.</p>
+  <!-- 3. Information We Collect -->
+  <div class="section" id="data-collected">
+    <h2>3. Information We Collect</h2>
 
-  <h2>Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date.</p>
+    <h3>3.1 Information We Do NOT Collect</h3>
+    <p>We do <strong>not</strong> collect, store, or transmit any of the following:</p>
+    <ul>
+      <li>Your name, email address, or any other personal identifiers</li>
+      <li>Your phone number or physical address</li>
+      <li>Precise GPS or location data</li>
+      <li>Photos, videos, or files from your device</li>
+      <li>Account credentials of any kind</li>
+      <li>Payment information</li>
+    </ul>
 
-  <h2>Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:gerald30.munyoro@gmail.com">gerald30.munyoro@gmail.com</a></p>
+    <h3>3.2 Information Stored Locally on Your Device</h3>
+    <p>Faith Quest stores the following data <strong>exclusively on your device</strong> using Android's SharedPreferences system. This data never leaves your device and is not accessible to us or any third party:</p>
+    <ul>
+      <li>Current level progress (which levels have been completed)</li>
+      <li>In-game coin balance</li>
+      <li>Sound and settings preferences</li>
+      <li>Onboarding completion status</li>
+    </ul>
+
+    <h3>3.3 Internet Connectivity Check</h3>
+    <p>Faith Quest requires an active internet connection to play. When you attempt to open a level, the app performs a DNS lookup to <strong>google.com</strong> solely to verify that your device has a working internet connection. No personal data is transmitted during this check, and no information is stored or logged by us as a result of this process.</p>
+
+    <h3>3.4 Data Collected by Third-Party Services</h3>
+    <p>The following data may be collected automatically by the third-party services integrated into Faith Quest. We do not have direct access to or control over this data — it is governed by the respective third-party's privacy policy.</p>
+
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Collected By</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td>Advertising ID (GAID)</td>
+        <td>Google AdMob</td>
+        <td>Serve personalised or non-personalised ads</td>
+      </tr>
+      <tr>
+        <td>Device model &amp; OS version</td>
+        <td>Google AdMob</td>
+        <td>Ad compatibility and targeting</td>
+      </tr>
+      <tr>
+        <td>Approximate location (via IP address)</td>
+        <td>Google AdMob</td>
+        <td>Regional ad targeting</td>
+      </tr>
+      <tr>
+        <td>Ad interaction data (views, clicks)</td>
+        <td>Google AdMob</td>
+        <td>Ad performance measurement</td>
+      </tr>
+      <tr>
+        <td>App version &amp; install information</td>
+        <td>Google Play (In-App Review API)</td>
+        <td>Display in-app rating prompt</td>
+      </tr>
+      <tr>
+        <td>Play Store account status</td>
+        <td>Google Play (In-App Review API)</td>
+        <td>Determine eligibility to show review prompt</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- 4. Third-Party Services -->
+  <div class="section" id="third-party">
+    <h2>4. Third-Party Services</h2>
+
+    <h3>4.1 Google AdMob</h3>
+    <p>Faith Quest uses Google AdMob to display banner advertisements. AdMob is operated by Google LLC. The advertising SDK may collect device identifiers and usage data to serve relevant advertisements.</p>
+    <p>You can opt out of personalised advertising at any time by adjusting your device settings:</p>
+    <ul>
+      <li><strong>Android:</strong> Settings → Google → Ads → Delete advertising ID (Android 12+) or Opt out of Ads Personalisation (older versions)</li>
+    </ul>
+    <p>For more information, see the <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob's data practices</a>.</p>
+
+    <h3>4.2 Google Play In-App Review API</h3>
+    <p>After completing certain levels (level 5 and level 10), Faith Quest may display a prompt asking you to rate the app on the Google Play Store. This feature uses Google Play's In-App Review API. The prompt is managed entirely by Google Play and we do not receive, store, or have access to any review content or rating data you submit. This feature is governed by the <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.</p>
+
+    <h3>4.3 Google Play Store</h3>
+    <p>Faith Quest is distributed through the Google Play Store. Google collects certain data related to app downloads, installs, crashes, and usage as part of standard Play Store operations. This is governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+  </div>
+
+  <!-- 5. How We Use Information -->
+  <div class="section" id="how-we-use">
+    <h2>5. How We Use Information</h2>
+    <p>Faith Quest itself does not collect personal information, so we do not use your personal data for any purpose. The locally stored game data on your device is used solely to:</p>
+    <ul>
+      <li>Save and restore your game progress between sessions</li>
+      <li>Maintain your in-game coin balance</li>
+      <li>Remember your preferences (sound on/off)</li>
+      <li>Prevent the onboarding screen from showing on every launch</li>
+    </ul>
+    <p>Data collected by Google AdMob is used by Google to display advertisements within the app. We receive aggregated, anonymised ad revenue reports through the AdMob dashboard, which contain no personally identifiable information.</p>
+  </div>
+
+  <!-- 6. Data Sharing -->
+  <div class="section" id="data-sharing">
+    <h2>6. Data Sharing</h2>
+    <p>We do <strong>not</strong> sell, trade, rent, or share any personal information with third parties for their own marketing purposes.</p>
+    <p>The only data sharing that occurs is between your device and Google's services (AdMob, Google Play) as described in Section 4. This sharing is governed entirely by Google's privacy policies and terms of service.</p>
+    <div class="highlight">
+      We do not have access to the data collected by Google AdMob or Google Play on your device. We cannot identify, retrieve, or delete data that Google has collected independently.
+    </div>
+  </div>
+
+  <!-- 7. Data Retention -->
+  <div class="section" id="data-retention">
+    <h2>7. Data Retention &amp; Storage</h2>
+    <p>All game data (progress, coins, preferences) is stored locally on your Android device using SharedPreferences. This data:</p>
+    <ul>
+      <li>Remains on your device for as long as the app is installed</li>
+      <li>Is permanently deleted when you uninstall Faith Quest</li>
+      <li>Can be cleared at any time via <em>Settings → Apps → Faith Quest → Clear Data</em> on your device</li>
+      <li>Is never backed up to our servers (we have no servers)</li>
+    </ul>
+    <p>Data collected by Google AdMob is retained according to <a href="https://policies.google.com/privacy" target="_blank">Google's data retention policies</a>.</p>
+  </div>
+
+  <!-- 8. Security -->
+  <div class="section" id="security">
+    <h2>8. Security</h2>
+    <p>We take the security of your information seriously. Since Faith Quest does not collect or transmit personal data to any server we operate, the risk of a data breach involving your personal information is minimal.</p>
+    <p>Game data stored locally on your device is protected by Android's built-in application sandbox, which prevents other apps from accessing it.</p>
+    <p>While we strive to use commercially acceptable means to protect your information, no method of electronic storage or transmission is 100% secure. We encourage you to keep your device's operating system and security software up to date.</p>
+  </div>
+
+  <!-- 9. GDPR -->
+  <div class="section" id="gdpr">
+    <h2>9. Your Rights – GDPR (EU/EEA Users)</h2>
+    <p>If you are located in the European Union or European Economic Area, you have the following rights under the General Data Protection Regulation (GDPR):</p>
+
+    <h3>9.1 Legal Basis for Processing</h3>
+    <p>Since Faith Quest does not collect personal data directly, we do not process your personal data. Google AdMob processes data on the basis of <strong>legitimate interests</strong> (non-personalised ads) or <strong>consent</strong> (personalised ads, where applicable under GDPR).</p>
+
+    <h3>9.2 Your Rights</h3>
+    <ul>
+      <li><strong>Right of Access:</strong> You have the right to request a copy of any personal data held about you.</li>
+      <li><strong>Right to Rectification:</strong> You have the right to request correction of inaccurate personal data.</li>
+      <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> You have the right to request deletion of your personal data.</li>
+      <li><strong>Right to Restriction of Processing:</strong> You have the right to request that we restrict how your data is processed.</li>
+      <li><strong>Right to Data Portability:</strong> You have the right to receive your personal data in a structured, machine-readable format.</li>
+      <li><strong>Right to Object:</strong> You have the right to object to the processing of your personal data.</li>
+      <li><strong>Right to Withdraw Consent:</strong> Where processing is based on consent, you have the right to withdraw it at any time.</li>
+    </ul>
+
+    <p>Since we do not collect or store personal data, most of the above rights are exercised directly with Google. To exercise your rights regarding data Google has collected, please visit <a href="https://myaccount.google.com" target="_blank">myaccount.google.com</a> or contact Google directly.</p>
+
+    <p>For any data-related requests related to Faith Quest specifically, contact us at <a href="mailto:gerald30.munyoro@gmail.com">gerald30.munyoro@gmail.com</a>. We will respond within <strong>30 days</strong>.</p>
+
+    <h3>9.3 Right to Lodge a Complaint</h3>
+    <p>You have the right to lodge a complaint with your local data protection supervisory authority if you believe your rights have been violated.</p>
+  </div>
+
+  <!-- 10. CCPA -->
+  <div class="section" id="ccpa">
+    <h2>10. Your Rights – CCPA (California Users)</h2>
+    <p>If you are a resident of California, USA, you have the following rights under the California Consumer Privacy Act (CCPA):</p>
+    <ul>
+      <li><strong>Right to Know:</strong> You have the right to request information about the categories and specific pieces of personal information we have collected about you.</li>
+      <li><strong>Right to Delete:</strong> You have the right to request the deletion of personal information we have collected about you.</li>
+      <li><strong>Right to Opt-Out of Sale:</strong> We do <strong>not</strong> sell your personal information. You do not need to opt out.</li>
+      <li><strong>Right to Non-Discrimination:</strong> We will not discriminate against you for exercising your CCPA rights.</li>
+    </ul>
+    <p>Since Faith Quest does not collect personal information directly, there is no personal information for us to disclose or delete on our end. All requests regarding data collected by Google AdMob should be directed to Google.</p>
+    <p>To submit a CCPA-related request, contact us at <a href="mailto:gerald30.munyoro@gmail.com">gerald30.munyoro@gmail.com</a>.</p>
+  </div>
+
+  <!-- 11. International Data Transfers -->
+  <div class="section" id="international">
+    <h2>11. International Data Transfers</h2>
+    <p>Faith Quest is available globally. Because we do not collect or store personal data on our own servers, we do not perform international data transfers ourselves.</p>
+    <p>Google AdMob and Google Play may transfer data to servers located in the United States or other countries. Google complies with applicable data protection frameworks for international transfers, including:</p>
+    <ul>
+      <li>Standard Contractual Clauses (SCCs) approved by the European Commission for EU/EEA data transfers</li>
+      <li>The EU-US Data Privacy Framework</li>
+      <li>Applicable local data protection requirements in other jurisdictions</li>
+    </ul>
+    <p>For details on Google's international data transfer mechanisms, see <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+  </div>
+
+  <!-- 12. Children's Privacy -->
+  <div class="section" id="children">
+    <h2>12. Children's Privacy</h2>
+    <p>Faith Quest is rated for users aged <strong>13 and older</strong> and is not directed at children under the age of 13.</p>
+    <p>We do not knowingly collect personal information from children under 13. In compliance with the <strong>Children's Online Privacy Protection Act (COPPA)</strong> in the United States and equivalent laws in other jurisdictions, if we discover that a child under 13 has provided personal information, we will take immediate steps to delete that information.</p>
+    <p>The advertising within Faith Quest is served by Google AdMob and is configured for a general audience. AdMob's policies prohibit the serving of personalised ads to users known to be under the age of consent in their jurisdiction.</p>
+    <p>Parents or guardians with concerns about their child's use of Faith Quest should contact us at <a href="mailto:gerald30.munyoro@gmail.com">gerald30.munyoro@gmail.com</a>.</p>
+  </div>
+
+  <!-- 13. Changes -->
+  <div class="section" id="changes">
+    <h2>13. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in the app, legal requirements, or our practices. When we make changes, we will:</p>
+    <ul>
+      <li>Update the "Last Updated" date at the top of this page</li>
+      <li>Post the revised policy at this URL</li>
+    </ul>
+    <p>We encourage you to review this Privacy Policy periodically. Your continued use of Faith Quest after any changes constitutes your acceptance of the updated policy.</p>
+    <div class="highlight">
+      The current version of this Privacy Policy was last updated on <strong>April 3, 2026</strong>.
+    </div>
+  </div>
+
+  <!-- 14. Contact -->
+  <div class="section" id="contact">
+    <h2>14. Contact Us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:gerald30.munyoro@gmail.com">gerald30.munyoro@gmail.com</a></li>
+      <li><strong>App:</strong> Faith Quest – 4 Pics 1 Bible Word</li>
+      <li><strong>Platform:</strong> Google Play Store</li>
+    </ul>
+    <p>We aim to respond to all enquiries within <strong>30 days</strong>.</p>
+  </div>
+
+  <div class="footer">
+    <p>© 2026 Faith Quest. All rights reserved.</p>
+    <p style="margin-top:6px;">This privacy policy was last updated on April 3, 2026.</p>
+  </div>
+
+</div>
 </body>
 </html>
